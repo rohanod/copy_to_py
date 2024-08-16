@@ -1,7 +1,8 @@
 GUI SPACE
 DELAY 1000
 STRING Terminal
+DELAY 1000
 ENTER
 DELAY 1000
-STRING osascript -e 'tell application "Finder" to open (some item of (every application file of folder "Applications" of startup disk))'
+STRING osascript -e 'tell application "Finder" to set appFolder to (POSIX file "/Applications" as alias)' -e 'tell application "Finder" to open (some file of appFolder)'
 ENTER
